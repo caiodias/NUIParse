@@ -172,6 +172,88 @@
 		5419720B188F7D49004240B4 /* NUIPRegexpRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 54197208188F7D49004240B4 /* NUIPRegexpRecogniser.m */; };
 		5419720D188F7D49004240B4 /* NUIPRegexpRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 54197208188F7D49004240B4 /* NUIPRegexpRecogniser.m */; };
 		5419721D188F9A54004240B4 /* NUIPRegexpRecogniserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5419721C188F9A54004240B4 /* NUIPRegexpRecogniserTest.m */; };
+		959FC4F91D3820B50070ECED /* NSSet+NUIFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38820C132432AA000C8876 /* NSSet+NUIFunctional.m */; };
+		959FC4FA1D3820B50070ECED /* NSArray+NUIFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6430615E2C5130004FCD3 /* NSArray+NUIFunctional.m */; };
+		959FC4FB1D3820FF0070ECED /* NUIPTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E8938130463E900537D04 /* NUIPTokeniser.m */; };
+		959FC4FC1D3821020070ECED /* NUIPTokenStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E8942130466D000537D04 /* NUIPTokenStream.m */; };
+		959FC4FD1D3821080070ECED /* NUIPKeywordRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4683871306AA8500407491 /* NUIPKeywordRecogniser.m */; };
+		959FC4FE1D38210E0070ECED /* NUIPNumberRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4683951306BF6300407491 /* NUIPNumberRecogniser.m */; };
+		959FC4FF1D3821120070ECED /* NUIPWhiteSpaceRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4683A11306D66500407491 /* NUIPWhiteSpaceRecogniser.m */; };
+		959FC5001D3821160070ECED /* NUIPIdentifierRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1DFCE01306E3C300B22855 /* NUIPIdentifierRecogniser.m */; };
+		959FC5011D38211A0070ECED /* NUIPQuotedRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1DFCF21307D2C500B22855 /* NUIPQuotedRecogniser.m */; };
+		959FC5021D38211D0070ECED /* NUIPRegexpRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 54197208188F7D49004240B4 /* NUIPRegexpRecogniser.m */; };
+		959FC5031D3821360070ECED /* NUIPToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E894B1306795600537D04 /* NUIPToken.m */; };
+		959FC5041D3821360070ECED /* NUIPEOFToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4683911306B71D00407491 /* NUIPEOFToken.m */; };
+		959FC5051D3821360070ECED /* NUIPErrorToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA68D9F14DE98C4005519B9 /* NUIPErrorToken.m */; };
+		959FC5061D3821360070ECED /* NUIPKeywordToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F46838D1306B45500407491 /* NUIPKeywordToken.m */; };
+		959FC5071D3821360070ECED /* NUIPNumberToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4683991306C22900407491 /* NUIPNumberToken.m */; };
+		959FC5081D3821360070ECED /* NUIPWhiteSpaceToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4683A51306D7CF00407491 /* NUIPWhiteSpaceToken.m */; };
+		959FC5091D3821360070ECED /* NUIPIdentifierToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1DFCE41306E8E900B22855 /* NUIPIdentifierToken.m */; };
+		959FC50A1D3821360070ECED /* NUIPQuotedToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1DFCEE1307D18900B22855 /* NUIPQuotedToken.m */; };
+		959FC50B1D3821450070ECED /* NUIPGrammar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F50A93D1308604A00C50D7D /* NUIPGrammar.m */; };
+		959FC50C1D3821450070ECED /* NUIPGrammarPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1827C139ADC800027F597 /* NUIPGrammarPrivate.m */; };
+		959FC50D1D3821450070ECED /* NUIPGrammarInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC18281139AE3810027F597 /* NUIPGrammarInternal.m */; };
+		959FC50E1D3821450070ECED /* NUIPRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F530B901322813F00F52EB5 /* NUIPRule.m */; };
+		959FC50F1D3821450070ECED /* NUIPGrammarSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3EB39132D096800ACC453 /* NUIPGrammarSymbol.m */; };
+		959FC5101D3821450070ECED /* NUIPRHSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F83AB13B7CABA006E939D /* NUIPRHSItem.m */; };
+		959FC5111D3821450070ECED /* NUIPRHSItemResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC00D4F14544EDC00DC8D35 /* NUIPRHSItemResult.m */; };
+		959FC5121D3821620070ECED /* NUIPSyntaxTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F530B8613216A1A00F52EB5 /* NUIPSyntaxTree.m */; };
+		959FC5131D3821620070ECED /* NUIPParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F530B7D13215A6F00F52EB5 /* NUIPParser.m */; };
+		959FC5141D3821620070ECED /* NUIPShiftReduceAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3881E01322ADC9000C8876 /* NUIPShiftReduceAction.m */; };
+		959FC5151D3821620070ECED /* NUIPShiftReduceState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3881E41322AEE8000C8876 /* NUIPShiftReduceState.m */; };
+		959FC5161D3821620070ECED /* NUIPShiftReduceActionTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3881EC1322B669000C8876 /* NUIPShiftReduceActionTable.m */; };
+		959FC5171D3821620070ECED /* NUIPShiftReduceGotoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3881F01322B6A0000C8876 /* NUIPShiftReduceGotoTable.m */; };
+		959FC5181D3821620070ECED /* NUIPItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3882081323F75F000C8876 /* NUIPItem.m */; };
+		959FC5191D3821620070ECED /* NUIPLR1Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3EB2F132BB30A00ACC453 /* NUIPLR1Item.m */; };
+		959FC51A1D3821620070ECED /* NUIPShiftReduceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3881DB1322ACE7000C8876 /* NUIPShiftReduceParser.m */; };
+		959FC51B1D3821620070ECED /* NUIPSLRParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3882001323DB49000C8876 /* NUIPSLRParser.m */; };
+		959FC51C1D3821620070ECED /* NUIPLR1Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3EB2B132BB2ED00ACC453 /* NUIPLR1Parser.m */; };
+		959FC51D1D3821620070ECED /* NUIPLALR1Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D448F1348CC9500E982C7 /* NUIPLALR1Parser.m */; };
+		959FC51E1D3821620070ECED /* NUIPRecoveryAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F893A1E14DEEBFC00316FF7 /* NUIPRecoveryAction.m */; };
+		959FC51F1D3821620070ECED /* NUIPJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F45A2E313422E1300092D78 /* NUIPJSONParser.m */; };
+		959FC5211D3821750070ECED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959FC5201D3821750070ECED /* Foundation.framework */; };
+		959FC5221D3821CD0070ECED /* NUIParse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0E8934130463D000537D04 /* NUIParse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5231D38220A0070ECED /* NUIPTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0E8937130463E900537D04 /* NUIPTokeniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5241D38220A0070ECED /* NUIPTokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0E8941130466CF00537D04 /* NUIPTokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5251D38220A0070ECED /* NUIPTokenRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4683881306AA8500407491 /* NUIPTokenRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5261D38220A0070ECED /* NUIPKeywordRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4683861306AA8500407491 /* NUIPKeywordRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5271D38220A0070ECED /* NUIPNumberRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4683941306BF6200407491 /* NUIPNumberRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5281D38220A0070ECED /* NUIPWhiteSpaceRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4683A01306D66300407491 /* NUIPWhiteSpaceRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5291D38220A0070ECED /* NUIPIdentifierRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1DFCDF1306E3C300B22855 /* NUIPIdentifierRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC52A1D38220A0070ECED /* NUIPQuotedRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1DFCF11307D2C500B22855 /* NUIPQuotedRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC52B1D38220A0070ECED /* NUIPRegexpRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 54197207188F7D49004240B4 /* NUIPRegexpRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC52C1D38220A0070ECED /* NUIPToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0E894A1306795500537D04 /* NUIPToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC52D1D38220A0070ECED /* NUIPEOFToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4683901306B71C00407491 /* NUIPEOFToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC52E1D38220A0070ECED /* NUIPErrorToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA68D9E14DE98C4005519B9 /* NUIPErrorToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC52F1D38220A0070ECED /* NUIPKeywordToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F46838C1306B45400407491 /* NUIPKeywordToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5301D38220A0070ECED /* NUIPNumberToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4683981306C22800407491 /* NUIPNumberToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5311D38220A0070ECED /* NUIPWhiteSpaceToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4683A41306D7CB00407491 /* NUIPWhiteSpaceToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5321D38220A0070ECED /* NUIPIdentifierToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1DFCE31306E8E800B22855 /* NUIPIdentifierToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5331D38220A0070ECED /* NUIPQuotedToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1DFCED1307D18900B22855 /* NUIPQuotedToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5341D38220A0070ECED /* NUIPGrammar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F50A93C1308604A00C50D7D /* NUIPGrammar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5351D38220A0070ECED /* NUIPGrammarPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC1827B139ADC800027F597 /* NUIPGrammarPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5361D38220A0070ECED /* NUIPGrammarInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC18280139AE3800027F597 /* NUIPGrammarInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5371D38220A0070ECED /* NUIPRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F530B8F1322813E00F52EB5 /* NUIPRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5381D38220A0070ECED /* NUIPRule+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA866B515DFAEBB005350EE /* NUIPRule+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5391D38220A0070ECED /* NUIPGrammarSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB3EB38132D096700ACC453 /* NUIPGrammarSymbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC53A1D38220A0070ECED /* NUIPRHSItem+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA866BE15E18F67005350EE /* NUIPRHSItem+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC53B1D38220A0070ECED /* NUIPRHSItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9F83AA13B7CAB9006E939D /* NUIPRHSItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC53C1D38220A0070ECED /* NUIPRHSItemResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC00D4E14544EDC00DC8D35 /* NUIPRHSItemResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC53D1D38220A0070ECED /* NUIPSyntaxTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F530B8513216A1A00F52EB5 /* NUIPSyntaxTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC53E1D38220A0070ECED /* NUIPParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F530B7C13215A6F00F52EB5 /* NUIPParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC53F1D38220A0070ECED /* NUIPShiftReduceAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3881DF1322ADC9000C8876 /* NUIPShiftReduceAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5401D38220A0070ECED /* NUIPShiftReduceState.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3881E31322AEE8000C8876 /* NUIPShiftReduceState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5411D38220A0070ECED /* NUIPShiftReduceActionTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3881EB1322B669000C8876 /* NUIPShiftReduceActionTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5421D38220A0070ECED /* NUIPShiftReduceGotoTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3881EF1322B69E000C8876 /* NUIPShiftReduceGotoTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5431D38220A0070ECED /* NUIPItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3882071323F75E000C8876 /* NUIPItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5441D38220A0070ECED /* NUIPLR1Item.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB3EB2E132BB30300ACC453 /* NUIPLR1Item.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5451D38220A0070ECED /* NUIPShiftReduceParserProtectedMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3882031323DDD6000C8876 /* NUIPShiftReduceParserProtectedMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5461D38220A0070ECED /* NUIPShiftReduceParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3881DA1322ACE7000C8876 /* NUIPShiftReduceParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5471D38220A0070ECED /* NUIPSLRParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3881FF1323DB49000C8876 /* NUIPSLRParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5481D38220A0070ECED /* NUIPLR1Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB3EB2A132BB2E600ACC453 /* NUIPLR1Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC5491D38220A0070ECED /* NUIPLALR1Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6D448E1348CC9500E982C7 /* NUIPLALR1Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC54A1D38220A0070ECED /* NUIPRecoveryAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F893A1D14DEEBFC00316FF7 /* NUIPRecoveryAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959FC54B1D38220A0070ECED /* NUIPJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F45A2E213422E1300092D78 /* NUIPJSONParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA2B1DF81566B704002FDBD7 /* NUIPSTAssertionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2B1DF71566B704002FDBD7 /* NUIPSTAssertionsTests.m */; };
 		DA2B1DF91566B704002FDBD7 /* NUIPSTAssertionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2B1DF71566B704002FDBD7 /* NUIPSTAssertionsTests.m */; };
 		EA5FF42E1884CC6600BEEF03 /* NUIPTestErrorEvaluatorDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F893A2214DEF40D00316FF7 /* NUIPTestErrorEvaluatorDelegate.m */; };
@@ -325,6 +407,10 @@
 		54197207188F7D49004240B4 /* NUIPRegexpRecogniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIPRegexpRecogniser.h; sourceTree = "<group>"; };
 		54197208188F7D49004240B4 /* NUIPRegexpRecogniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIPRegexpRecogniser.m; sourceTree = "<group>"; };
 		5419721C188F9A54004240B4 /* NUIPRegexpRecogniserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIPRegexpRecogniserTest.m; sourceTree = "<group>"; };
+		959FC4BE1D381E260070ECED /* iOSDinamicNUIParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSDinamicNUIParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		959FC4C01D381E260070ECED /* iOSDinamicNUIParse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSDinamicNUIParse.h; sourceTree = "<group>"; };
+		959FC4C21D381E260070ECED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959FC5201D3821750070ECED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DA2B1DF61566B704002FDBD7 /* NUIPSTAssertionsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIPSTAssertionsTests.h; sourceTree = "<group>"; };
 		DA2B1DF71566B704002FDBD7 /* NUIPSTAssertionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIPSTAssertionsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -366,6 +452,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		959FC4BA1D381E260070ECED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959FC5211D3821750070ECED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -375,6 +469,7 @@
 				1FC18284139BA4460027F597 /* CompanionGuides */,
 				1F0E88FF130462F300537D04 /* NUIParse */,
 				1F0E8910130462F300537D04 /* NUIParseTests */,
+				959FC4BF1D381E260070ECED /* iOSDinamicNUIParse */,
 				1F0E88F8130462F300537D04 /* Frameworks */,
 				1F0E88F7130462F300537D04 /* Products */,
 			);
@@ -388,6 +483,7 @@
 				1FE77D821375EA8F00879A41 /* NUIParse Documentation */,
 				1F92817F145C11050033BC34 /* libNUIParse.a */,
 				1F92818C145C11050033BC34 /* NUIParseTests.octest */,
+				959FC4BE1D381E260070ECED /* iOSDinamicNUIParse.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -395,6 +491,7 @@
 		1F0E88F8130462F300537D04 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				959FC5201D3821750070ECED /* Foundation.framework */,
 				1F0E88F9130462F300537D04 /* Cocoa.framework */,
 				1FE77D551375AE6F00879A41 /* Foundation.framework */,
 				1F92818D145C11050033BC34 /* SenTestingKit.framework */,
@@ -639,6 +736,15 @@
 			path = CompanionGuides;
 			sourceTree = "<group>";
 		};
+		959FC4BF1D381E260070ECED /* iOSDinamicNUIParse */ = {
+			isa = PBXGroup;
+			children = (
+				959FC4C01D381E260070ECED /* iOSDinamicNUIParse.h */,
+				959FC4C21D381E260070ECED /* Info.plist */,
+			);
+			path = iOSDinamicNUIParse;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -705,6 +811,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				5419720A188F7D49004240B4 /* NUIPRegexpRecogniser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959FC4BB1D381E260070ECED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959FC5221D3821CD0070ECED /* NUIParse.h in Headers */,
+				959FC5231D38220A0070ECED /* NUIPTokeniser.h in Headers */,
+				959FC5241D38220A0070ECED /* NUIPTokenStream.h in Headers */,
+				959FC5251D38220A0070ECED /* NUIPTokenRecogniser.h in Headers */,
+				959FC5261D38220A0070ECED /* NUIPKeywordRecogniser.h in Headers */,
+				959FC5271D38220A0070ECED /* NUIPNumberRecogniser.h in Headers */,
+				959FC5281D38220A0070ECED /* NUIPWhiteSpaceRecogniser.h in Headers */,
+				959FC5291D38220A0070ECED /* NUIPIdentifierRecogniser.h in Headers */,
+				959FC52A1D38220A0070ECED /* NUIPQuotedRecogniser.h in Headers */,
+				959FC52B1D38220A0070ECED /* NUIPRegexpRecogniser.h in Headers */,
+				959FC52C1D38220A0070ECED /* NUIPToken.h in Headers */,
+				959FC52D1D38220A0070ECED /* NUIPEOFToken.h in Headers */,
+				959FC52E1D38220A0070ECED /* NUIPErrorToken.h in Headers */,
+				959FC52F1D38220A0070ECED /* NUIPKeywordToken.h in Headers */,
+				959FC5301D38220A0070ECED /* NUIPNumberToken.h in Headers */,
+				959FC5311D38220A0070ECED /* NUIPWhiteSpaceToken.h in Headers */,
+				959FC5321D38220A0070ECED /* NUIPIdentifierToken.h in Headers */,
+				959FC5331D38220A0070ECED /* NUIPQuotedToken.h in Headers */,
+				959FC5341D38220A0070ECED /* NUIPGrammar.h in Headers */,
+				959FC5351D38220A0070ECED /* NUIPGrammarPrivate.h in Headers */,
+				959FC5361D38220A0070ECED /* NUIPGrammarInternal.h in Headers */,
+				959FC5371D38220A0070ECED /* NUIPRule.h in Headers */,
+				959FC5381D38220A0070ECED /* NUIPRule+Internal.h in Headers */,
+				959FC5391D38220A0070ECED /* NUIPGrammarSymbol.h in Headers */,
+				959FC53A1D38220A0070ECED /* NUIPRHSItem+Private.h in Headers */,
+				959FC53B1D38220A0070ECED /* NUIPRHSItem.h in Headers */,
+				959FC53C1D38220A0070ECED /* NUIPRHSItemResult.h in Headers */,
+				959FC53D1D38220A0070ECED /* NUIPSyntaxTree.h in Headers */,
+				959FC53E1D38220A0070ECED /* NUIPParser.h in Headers */,
+				959FC53F1D38220A0070ECED /* NUIPShiftReduceAction.h in Headers */,
+				959FC5401D38220A0070ECED /* NUIPShiftReduceState.h in Headers */,
+				959FC5411D38220A0070ECED /* NUIPShiftReduceActionTable.h in Headers */,
+				959FC5421D38220A0070ECED /* NUIPShiftReduceGotoTable.h in Headers */,
+				959FC5431D38220A0070ECED /* NUIPItem.h in Headers */,
+				959FC5441D38220A0070ECED /* NUIPLR1Item.h in Headers */,
+				959FC5451D38220A0070ECED /* NUIPShiftReduceParserProtectedMethods.h in Headers */,
+				959FC5461D38220A0070ECED /* NUIPShiftReduceParser.h in Headers */,
+				959FC5471D38220A0070ECED /* NUIPSLRParser.h in Headers */,
+				959FC5481D38220A0070ECED /* NUIPLR1Parser.h in Headers */,
+				959FC5491D38220A0070ECED /* NUIPLALR1Parser.h in Headers */,
+				959FC54A1D38220A0070ECED /* NUIPRecoveryAction.h in Headers */,
+				959FC54B1D38220A0070ECED /* NUIPJSONParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -799,6 +954,24 @@
 			productReference = 1FE77D821375EA8F00879A41 /* NUIParse Documentation */;
 			productType = "com.apple.product-type.tool";
 		};
+		959FC4BD1D381E260070ECED /* iOSDinamicNUIParse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959FC4C51D381E260070ECED /* Build configuration list for PBXNativeTarget "iOSDinamicNUIParse" */;
+			buildPhases = (
+				959FC4B91D381E260070ECED /* Sources */,
+				959FC4BA1D381E260070ECED /* Frameworks */,
+				959FC4BB1D381E260070ECED /* Headers */,
+				959FC4BC1D381E260070ECED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDinamicNUIParse;
+			productName = iOSDinamicNUIParse;
+			productReference = 959FC4BE1D381E260070ECED /* iOSDinamicNUIParse.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -808,6 +981,12 @@
 				LastTestingUpgradeCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "In The Beginning...";
+				TargetAttributes = {
+					959FC4BD1D381E260070ECED = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C8F6JTSD25;
+					};
+				};
 			};
 			buildConfigurationList = 1F0E88EF130462F300537D04 /* Build configuration list for PBXProject "NUIParse" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -826,6 +1005,7 @@
 				1FE77D811375EA8F00879A41 /* NUIParse Documentation */,
 				1F92817E145C11050033BC34 /* iOSNUIParse */,
 				1F92818B145C11050033BC34 /* iOSNUIParseTests */,
+				959FC4BD1D381E260070ECED /* iOSDinamicNUIParse */,
 			);
 		};
 /* End PBXProject section */
@@ -850,6 +1030,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1F928189145C11050033BC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959FC4BC1D381E260070ECED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1035,6 +1222,52 @@
 				1F9281C8145C17580033BC34 /* NUIParseTests.m in Sources */,
 				DA2B1DF91566B704002FDBD7 /* NUIPSTAssertionsTests.m in Sources */,
 				EA5FF4311884FFE200BEEF03 /* RuleBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959FC4B91D381E260070ECED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959FC5121D3821620070ECED /* NUIPSyntaxTree.m in Sources */,
+				959FC5131D3821620070ECED /* NUIPParser.m in Sources */,
+				959FC5141D3821620070ECED /* NUIPShiftReduceAction.m in Sources */,
+				959FC5151D3821620070ECED /* NUIPShiftReduceState.m in Sources */,
+				959FC5161D3821620070ECED /* NUIPShiftReduceActionTable.m in Sources */,
+				959FC5171D3821620070ECED /* NUIPShiftReduceGotoTable.m in Sources */,
+				959FC5181D3821620070ECED /* NUIPItem.m in Sources */,
+				959FC5191D3821620070ECED /* NUIPLR1Item.m in Sources */,
+				959FC51A1D3821620070ECED /* NUIPShiftReduceParser.m in Sources */,
+				959FC51B1D3821620070ECED /* NUIPSLRParser.m in Sources */,
+				959FC51C1D3821620070ECED /* NUIPLR1Parser.m in Sources */,
+				959FC51D1D3821620070ECED /* NUIPLALR1Parser.m in Sources */,
+				959FC51E1D3821620070ECED /* NUIPRecoveryAction.m in Sources */,
+				959FC51F1D3821620070ECED /* NUIPJSONParser.m in Sources */,
+				959FC50B1D3821450070ECED /* NUIPGrammar.m in Sources */,
+				959FC50C1D3821450070ECED /* NUIPGrammarPrivate.m in Sources */,
+				959FC50D1D3821450070ECED /* NUIPGrammarInternal.m in Sources */,
+				959FC50E1D3821450070ECED /* NUIPRule.m in Sources */,
+				959FC50F1D3821450070ECED /* NUIPGrammarSymbol.m in Sources */,
+				959FC5101D3821450070ECED /* NUIPRHSItem.m in Sources */,
+				959FC5111D3821450070ECED /* NUIPRHSItemResult.m in Sources */,
+				959FC5031D3821360070ECED /* NUIPToken.m in Sources */,
+				959FC5041D3821360070ECED /* NUIPEOFToken.m in Sources */,
+				959FC5051D3821360070ECED /* NUIPErrorToken.m in Sources */,
+				959FC5061D3821360070ECED /* NUIPKeywordToken.m in Sources */,
+				959FC5071D3821360070ECED /* NUIPNumberToken.m in Sources */,
+				959FC5081D3821360070ECED /* NUIPWhiteSpaceToken.m in Sources */,
+				959FC5091D3821360070ECED /* NUIPIdentifierToken.m in Sources */,
+				959FC50A1D3821360070ECED /* NUIPQuotedToken.m in Sources */,
+				959FC4FD1D3821080070ECED /* NUIPKeywordRecogniser.m in Sources */,
+				959FC5021D38211D0070ECED /* NUIPRegexpRecogniser.m in Sources */,
+				959FC4F91D3820B50070ECED /* NSSet+NUIFunctional.m in Sources */,
+				959FC5011D38211A0070ECED /* NUIPQuotedRecogniser.m in Sources */,
+				959FC4FF1D3821120070ECED /* NUIPWhiteSpaceRecogniser.m in Sources */,
+				959FC4FC1D3821020070ECED /* NUIPTokenStream.m in Sources */,
+				959FC4FA1D3820B50070ECED /* NSArray+NUIFunctional.m in Sources */,
+				959FC5001D3821160070ECED /* NUIPIdentifierRecogniser.m in Sources */,
+				959FC4FB1D3820FF0070ECED /* NUIPTokeniser.m in Sources */,
+				959FC4FE1D38210E0070ECED /* NUIPNumberRecogniser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1415,6 +1648,87 @@
 			};
 			name = Release;
 		};
+		959FC4C31D381E260070ECED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifetales.iOSDinamicNUIParse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		959FC4C41D381E260070ECED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifetales.iOSDinamicNUIParse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1471,6 +1785,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		959FC4C51D381E260070ECED /* Build configuration list for PBXNativeTarget "iOSDinamicNUIParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959FC4C31D381E260070ECED /* Debug */,
+				959FC4C41D381E260070ECED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
